@@ -25,8 +25,11 @@ public class BankAccount{
     BobAccount++;
 
     //Outputs Bob's bank statement
-    System.out.println("Current Balance is :$" + BobAccount + "." );
+    //this will output .8999999999 so figure out how to change that
+    //System.out.println("Current Balance is :$" + BobAccount + "." );
 
+    System.out.printf("Current Balance: $");
+    System.out.printf("%.2f", BobAccount);
     }
 
 }
